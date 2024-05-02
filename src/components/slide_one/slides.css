@@ -1,0 +1,17 @@
+.text-content{
+    font-family: Outfit;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25.2px;
+    text-align: left;
+}
+.slider{
+    border: 1px solid green;
+}
+.card_one{
+    width: 314px;
+    height: 295px;
+    /* gap: 12px; */
+    opacity: 0px;
+    position: relative;
+}
