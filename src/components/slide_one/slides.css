@@ -7,11 +7,64 @@
 }
 .slider{
     border: 1px solid green;
+    position: relative;
+}
+.slider #heading{
+    font-family: Outfit;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 56px;
+
 }
 .card_one{
     width: 314px;
     height: 295px;
-    /* gap: 12px; */
-    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border: 2px solid green;
+}
+.slide-parent{
+    top: 450px;
     position: relative;
+}
+.slider-img-div{
+    width: 314px;
+    height: 210px;
+    border-radius: 23px ;
+    position: relative;
+}
+.slide-img-div{
+    position: relative;
+}
+#logoImage{
+    position: absolute;
+    left: 258px;
+    top: 8px;
+    z-index: 2;
+
+}
+
+.slide-btn{
+    display: flex;
+    gap: 12px;
+}
+.slide-btn .slide-task{
+    background: #D0E4E4;
+    width: auto;
+    height: 36px;
+    padding: 8px 16px 8px 16px;
+    gap: 10px;
+    border-radius: 30px;
+    opacity: 0px;
+
+}
+
+.slide-task p{
+    font-family: Outfit;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19.6px;
+    text-align: left;
+
 }

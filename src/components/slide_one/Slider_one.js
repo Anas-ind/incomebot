@@ -1,6 +1,7 @@
 import React from 'react'
 import './slides.css';
 import cardOneImage from '../../assets/slides/cardpg.png'
+import logoImage from '../../assets/slides/user_logo.svg'
 
 const Slider_one = () => {
   return (
@@ -8,7 +9,8 @@ const Slider_one = () => {
         <div className='card_one'>
             <div className='slide-img-div'>
             <img src={cardOneImage} alt="SearchIcon"/>
-        
+            <img id='logoImage' src={logoImage} alt="SearchIcon"/>
+
             </div>
             <div className='text-content'>
                 <p>
