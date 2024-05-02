@@ -1,0 +1,114 @@
+.headBelow{
+    border: 2px solid pink;
+    width: 1376px;
+    height: 634px;
+    /* top: 350px; */
+    left: 32px;
+    opacity: 0px;
+    position: relative;
+
+}
+.star_box{
+    position: relative;
+    width: 250px;
+    height: 56px;
+    top: 93px;
+    left: 120px;
+    padding: 8px 17px 8px 17px;
+    gap: 8px;
+    border-radius: 32px;
+    opacity: 0px;
+    display: flex;
+    background: linear-gradient(94.88deg, #3EDCFF 10.93%, #C3FFB3 83.21%);   
+}
+
+.color_box{
+    z-index: -1;
+    width: 207px;
+    height: 319px;
+    top: 215px;
+    left: 120px;
+    border-radius: 30px;
+    opacity: 0px;
+    background: linear-gradient(180deg, #ADE0FE 0%, #B2F4CD 100%);
+    position: relative;
+}
+.text_box{
+    display: flex;
+    width: 392px;
+    opacity: 0px;
+    flex-direction: column;
+    border: 1px solid green;
+    position: absolute;
+
+top: 173px;
+left: 272px;
+gap: 14px;
+
+
+}
+.text_box .first_box , .second_box , .third_box{
+    
+    height: 60px;
+    border-radius: 44px;
+    background-color: white;
+    width: 100%;
+}
+.text-box-container{
+    padding: 12px 24px 12px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.first-item{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.first-item-p p{
+    height: 36px;
+    width: 36px;
+    border-radius:25px;
+    background-color: #E7ECF4;
+    font-family: Outfit;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.p-content{
+    font-family: Outfit;
+}
+
+.card_box{
+    width: 334px;
+    height: 199px;
+    top: 137px;
+    left: 822px;
+    opacity: 0px;
+    position: absolute;
+}
+.cardContainer{
+    border-radius: 16px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+
+}
+.cardContainer .left-box img{
+    width: 34.92px;
+    height: 34.92px;
+    top: 12px;
+    left: 14px;
+    padding: 3.74px 4.36px 4.36px 4.36px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+}
+
+.cardContainer .left-box {
+
+}

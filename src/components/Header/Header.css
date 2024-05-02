@@ -1,0 +1,80 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Sans3;
+    src: url('../../../src/assets/fonts/Source_Sans_3/SourceSans3-Regular.ttf');
+}
+
+
+.header{
+   display: flex;
+    /* background-color: aqua; */
+    width: 100vw;
+    height: 100px;
+    padding: 10px 32px 10px 32px;
+    gap: 0px;
+    opacity: 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-div{
+    width: 15.06rem;
+    height: 58px;
+    gap: 7.33px;
+    opacity: 0px;
+
+}
+.search-div{
+    font-family: Sans3;
+    background-color: white ;
+    width: 264px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    padding: 10px 12px 10px 12px;
+    gap: 12px;
+    border-radius: 24px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;   
+}
+.logo-items{
+    font-family: Sans3;
+    width: 666px;
+    height: 48px;
+    gap: 32px;
+    opacity: 0px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+}
+
+.search-div input , .search-div button{
+    border: none;
+    background-color: white; 
+}
+.search-div input{
+    height: 35px;
+    width: 200px;
+
+}
+
+.head-btn{ 
+    gap: 8px;
+    border-radius: 24px;
+    opacity: 0px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head-btn p{
+    color: white;
+    background-color: black;
+    
+}
