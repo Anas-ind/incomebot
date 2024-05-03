@@ -5,6 +5,7 @@ const SignInButton = ({ onClick }) => {
     <button onClick={onClick} className="sign-in-button primary-btn">
       Sign In
     </button>
+    
   );
 };
 

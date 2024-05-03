@@ -1,15 +1,14 @@
 .headText{
     width: 812px;
     height: 256px;
-    border: 2px solid green;
     top: 186px;
-    left: 314px;
     gap: 32px;
     opacity: 0px;
-    position: absolute;;
+    position: relative;;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 auto;
    
 }
 .headMainText{
@@ -38,10 +37,7 @@
     align-items: center;
     justify-content: center;
 }
-.jio{
-    border: 1px solid green;
-    
-}
+
 .main_section{
     display: flex;
     justify-content: center;
@@ -49,25 +45,24 @@
     width: 100vw;
     height: 25rem;
 }
-
-/* .elipse1{
+.elp1 img{
+    z-index: -2;
     width: 638px;
     height: 638px;
-    top: 261px;
-    left: 98px;
+    top: -50px;
+    left: -368px;
     gap: 0px;
     opacity: 0px;
-    position: absolute;
-    z-index: -1;
+    position:absolute;
 }
-.elipse2{
-    z-index: -1;
+.elp2 img{
+    z-index: -2;
+    position: absolute;
     width: 600px;
     height: 600px;
-    top: 54px;
-    left: 1071px;
+    top: -285px;
+    right: -410px;
     gap: 0px;
     opacity: 0px;
-    position: absolute;
 
-} */
+}

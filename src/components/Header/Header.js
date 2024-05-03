@@ -22,11 +22,11 @@ const Header = () => {
             </button>
             <input type='text' placeholder='Search' />
          </div>
+       
+            <a>Latest Airdrops</a>
+        
         <div>
-            <p>Latest Airdrops</p>
-        </div>
-        <div>
-            <p>About Us</p>
+            <a>About Us</a>
         </div>
         <div>
             <img src={moonIcon} alt="SearchIcon" />

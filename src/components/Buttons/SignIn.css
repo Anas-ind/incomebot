@@ -13,12 +13,10 @@
     font-size: 16px;
     font-weight: 600;
     line-height: 20px;
-    text-align: left;
+  
   }
   .sign-in-button:hover {
     background-color: #EFEFEF;
-    color: black; 
-    border: none;
-   
+    color: black;    
   }
   

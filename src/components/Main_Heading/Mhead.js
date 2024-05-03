@@ -2,8 +2,8 @@ import React from 'react'
 import './Mhead.css'
 import SignInButton from '../Buttons/SignIn'
 import arrowIcon from '../../assets/Main-iteams/arrow-up-right.svg'
-// import elipse1 from '../../assets/Main-iteams/Ellipse 1.png'
-// import elipse2 from '../../assets/Main-iteams/Ellipse 2.png'
+import elipse1 from '../../assets/Main-iteams/Ellipse 1.png'
+import elipse2 from '../../assets/Main-iteams/Ellipse 2.png'
 
 const Mhead = () => {
   return (
@@ -20,6 +20,12 @@ const Mhead = () => {
         Get Started
         <img src={arrowIcon} alt="Up Arrow" />
         </button>
+      </div>
+      <div className='elp1'>
+      <img src={elipse1} />
+      </div>
+      <div className='elp2'>
+      <img src={elipse2} />
       </div>
       
     </div>

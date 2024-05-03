@@ -7,26 +7,30 @@ import logoImage from '../../assets/slides/user_logo.svg'
 import chevronleft from '../../assets/slides/chevron-left.svg'
 import chevronright from '../../assets/slides/chevron-right.svg'
 import clock from '../../assets/slides/clock.svg'
+import Save from '../../assets/slides/Save.svg'
 
 const Slider_one = () => {
   return (
     <div className='slideContainer'>
         <div className='card_one c1'>
             <div className='slide-img-div'>
-            <img src={cardOneImage} alt="SearchIcon"/>
-            <img id='logoImage' src={logoImage} alt="SearchIcon"/>
+            <img className='zoomed' src={cardOneImage} alt="SearchIcon"/>
+            <img id='logoImage' src={logoImage} />
+            <img id='logoSave' src={Save} />
+            
 
             </div>
             <div className='text-content'>
                 <p>
                     First ZK - Roll up CEX
+                    
                 </p>
             </div>
             <div className='slide-btn'>
-                <div className='slide-task'>
+                <div className='slide-task sm'>
                     <p>1 Task</p>
                 </div>
-                <div className='slide-task'>
+                <div className='slide-task sm'>
                 <p>500 SOL</p>
                 </div>
                 <div className='slide-task'>
@@ -37,8 +41,9 @@ const Slider_one = () => {
 
         <div className='card_one c2'>
             <div className='slide-img-div'>
-            <img src={cardTwoImage} alt="SearchIcon"/>
+            <img className='zoomed' src={cardTwoImage} alt="SearchIcon"/>
             <img id='logoImage' src={clock} alt="SearchIcon"/>
+            <img id='logoSave' src={Save} />
 
             </div>
             <div className='text-content'>
@@ -47,13 +52,13 @@ const Slider_one = () => {
                 </p>
             </div>
             <div className='slide-btn'>
-                <div className='slide-task'>
+                <div className='slide-task sm'>
                     <p>1 Task</p>
                 </div>
-                <div className='slide-task'>
+                <div className='slide-task sm'>
                 <p>500 SOL</p>
                 </div>
-                <div className='slide-task'>
+                <div className='slide-task md'>
                 <p>10/20 Slots</p>
                 </div>
             </div>
@@ -61,8 +66,9 @@ const Slider_one = () => {
 
         <div className='card_one c3'>
             <div className='slide-img-div'>
-            <img src={cardThreeImage} alt="SearchIcon"/>
+            <img className='zoomed' src={cardThreeImage} alt="SearchIcon"/>
             <img id='logoImage' src={logoImage} alt="SearchIcon"/>
+            <img id='logoSave' src={Save} />
 
             </div>
             <div className='text-content'>
@@ -71,10 +77,10 @@ const Slider_one = () => {
                 </p>
             </div>
             <div className='slide-btn'>
-                <div className='slide-task'>
+                <div className='slide-task sm'>
                     <p>1 Task</p>
                 </div>
-                <div className='slide-task'>
+                <div className='slide-task sm'>
                 <p>500 SOL</p>
                 </div>
                 <div className='slide-task'>
@@ -85,8 +91,9 @@ const Slider_one = () => {
 
         <div className='card_one c4'>
             <div className='slide-img-div'>
-            <img src={cardOneImage} alt="SearchIcon"/>
+            <img className='zoomed' src={cardOneImage} alt="SearchIcon"/>
             <img id='logoImage' src={clock} alt="SearchIcon"/>
+            <img id='logoSave' src={Save} />
 
             </div>
             <div className='text-content'>
@@ -95,13 +102,13 @@ const Slider_one = () => {
                 </p>
             </div>
             <div className='slide-btn'>
-                <div className='slide-task'>
+                <div className='slide-task sm'>
                     <p>1 Task</p>
                 </div>
-                <div className='slide-task'>
+                <div className='slide-task sm'>
                 <p>500 SOL</p>
                 </div>
-                <div className='slide-task'>
+                <div className='slide-task md'>
                 <p>10/20 Slots</p>
                 </div>
             </div>

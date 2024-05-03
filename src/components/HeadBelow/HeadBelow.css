@@ -1,11 +1,11 @@
 .headBelow{
-    border: 2px solid orange;
     width: 1376px;
     height: 634px;
     left: 32px;
     opacity: 0px;
     position: relative;
-   top: 420px;
+   top: 200px;
+   margin: 0 auto;
 }
 .star_box , .star_box_2{
     font-family: Outfit;
@@ -45,7 +45,6 @@
     width: 392px;
     opacity: 0px;
     flex-direction: column;
-    border: 1px solid green;
     position: absolute;
     top: 173px;
     left: 272px;
@@ -132,7 +131,7 @@
     position: absolute;
     width: 91px;
     height: 20px;
-    top: 87px;
+    top: 65px;
     left: 14px;
     gap: 0px;
     opacity: 0px;

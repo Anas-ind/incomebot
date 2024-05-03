@@ -1,12 +1,9 @@
 .feature-section-2{
-    
     top: 1000px;
     position: relative;
     display: flex;
     width: 1376px;
     height: 326px;
-    /* padding: 40px 0px; */
-    gap: 0px;
     justify-content: space-between;
     margin: 0 auto;
     
@@ -18,8 +15,9 @@
     width: 437.33px;
     height: 326px;
     padding: 15px;
-    opacity: 0px;
-
+}
+.c1m{
+    margin-top: 8px;
 }
 .title-box{
     font-family: Outfit;
@@ -37,8 +35,4 @@
     color: #6C6D6E;
     width: 389.33px;
     height: 200px;
-    gap: 0px;
-    opacity: 0px;
-    
-
 }
