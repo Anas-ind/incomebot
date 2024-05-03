@@ -1,0 +1,44 @@
+.feature-section-2{
+    
+    top: 1000px;
+    position: relative;
+    display: flex;
+    width: 1376px;
+    height: 326px;
+    /* padding: 40px 0px; */
+    gap: 0px;
+    justify-content: space-between;
+    margin: 0 auto;
+    
+}
+.feature-box-1{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 437.33px;
+    height: 326px;
+    padding: 15px;
+    opacity: 0px;
+
+}
+.title-box{
+    font-family: Outfit;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26.4px;
+    text-align: left;
+}
+.title-content{
+    font-family: Outfit;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2px;
+    text-align: left;
+    color: #6C6D6E;
+    width: 389.33px;
+    height: 200px;
+    gap: 0px;
+    opacity: 0px;
+    
+
+}

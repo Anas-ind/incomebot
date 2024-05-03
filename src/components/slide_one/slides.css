@@ -8,12 +8,18 @@
 .slider{
     border: 1px solid green;
     position: relative;
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    
+    flex-direction: column;
 }
 .slider #heading{
     font-family: Outfit;
     font-size: 40px;
     font-weight: 500;
     line-height: 56px;
+    margin: 0 95px;
 
 }
 .card_one{
@@ -22,7 +28,6 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
-    border: 2px solid green;
 }
 .slide-parent{
     top: 450px;
@@ -36,13 +41,18 @@
 }
 .slide-img-div{
     position: relative;
+    border-radius: 23px ;
+    overflow: hidden;
+}
+.slide-img-div img:hover{
+    transition: all linear 400ms;
+    scale: 1.1;
 }
 #logoImage{
     position: absolute;
     left: 258px;
     top: 8px;
     z-index: 2;
-
 }
 
 .slide-btn{
@@ -56,8 +66,7 @@
     padding: 8px 16px 8px 16px;
     gap: 10px;
     border-radius: 30px;
-    opacity: 0px;
-
+   
 }
 
 .slide-task p{
@@ -67,4 +76,38 @@
     line-height: 19.6px;
     text-align: left;
 
+}
+
+.slideContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 1376px;
+    height: 295px;
+    margin: 0 auto;
+    position: relative;
+}
+.chevron-left , .chevron-right{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    padding: 12px;
+    border-radius: 27px;
+    top: 25%;
+    color: transparent;
+    background-color: rgb(223, 215, 215);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chevron-left{
+    left: -25px;
+}
+.chevron-right{
+    right: -25px;
+}
+.s2{
+    top:600px
+}
+.s3{
+    top:850px
 }
