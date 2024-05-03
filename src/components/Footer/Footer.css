@@ -1,0 +1,116 @@
+.footer{
+    top: 1400px;
+    position: relative;
+    width: 1440px;
+    height: 301px;
+    padding: 80px;
+    gap: 40px;
+    border: 1px 0px 1px 0px;
+    opacity: 0px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+}
+.foot-container{
+    width: 1200px;
+    height: 105px; 
+    gap: 7.33px;
+    opacity: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftpart{
+    width: 725px;
+    height: 105px;
+    display: flex;
+    justify-content: space-between;
+}
+.aboutus {
+    width: 149px;
+    height: 105px;
+    gap: 30px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: Sans3;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #6C6D6E;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 204px;
+    height: 105px;
+    opacity: 0px;
+}
+#p2{
+    margin-top: 20px;
+}
+.title{
+    font-family: Sans3;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    color: black;
+}
+.t-con{
+    
+    display: flex;
+    gap: 10px;
+    font-family: Sans3;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #6C6D6E;
+}
+.po{
+    margin-top: 10px;
+}
+.social-icons{
+    display: flex;
+    width: 220px;
+    height: 20px;
+    gap: 30px;
+    opacity: 0px;
+}
+.social-btn{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contact-btn button{
+    width: 150px;
+    height: 48px;
+    padding: 8px 20px 8px 20px;
+    gap: 8px;
+    border-radius: 24px;
+    opacity: 0px;
+    background-color: black;
+    color: white;
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+}
+.contact-btn button:hover{
+    background-color: #EFEFEF;
+    color: black;
+    border: none;
+}
+
+.copyright{
+    text-align: center;
+    font-family: Sans3;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #6C6D6E;
+}

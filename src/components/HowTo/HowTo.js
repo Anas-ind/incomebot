@@ -7,7 +7,7 @@ import './HowTo.css';
 const HowTo = () => {
   return (
     <div className='howto'>
-        <div className='title'>
+        <div className='title2'>
             <p>How To Use : What You Need To Know</p>
         </div>
         <div className='box-container'>
