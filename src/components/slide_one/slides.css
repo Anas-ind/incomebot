@@ -20,6 +20,16 @@
     margin: 0 95px;
 
 }
+.skm{
+    font-family: Outfit;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19.6px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+}
 .card_one{
     width: 314px;
     height: 295px;
@@ -46,6 +56,14 @@
 .card_one:hover .zoomed{
     transition: all linear 400ms;
     scale: 1.1;
+}
+.sm{
+    font-family: Outfit;
+font-size: 14px;
+font-weight: 500;
+line-height: 19.6px;
+text-align: left;
+
 }
 .card_one:hover .sm{
     transition: all linear 400ms;

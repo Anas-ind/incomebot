@@ -113,4 +113,13 @@
     font-weight: 400;
     line-height: 16px;
     color: #6C6D6E;
+    border-top: 1px solid #6C6D6E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #0000000D
+    
+}
+.copyright p{
+    margin-top: 25px;
 }

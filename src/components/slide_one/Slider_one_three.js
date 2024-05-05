@@ -9,9 +9,11 @@ import chevronright from '../../assets/slides/chevron-right.svg'
 import clock from '../../assets/slides/clock.svg'
 import Save from '../../assets/slides/Save.svg'
 
-const Slider_one = (props) => {
+
+const Slider_one_three = () => {
   return (
-    <div className='slideContainer'>
+    <div>
+            <div className='slideContainer'>
         <div className='card_one c1'>
             <div className='slide-img-div'>
             <img className='zoomed' src={cardOneImage} alt="SearchIcon"/>
@@ -28,14 +30,12 @@ const Slider_one = (props) => {
             </div>
             <div className='slide-btn'>
                 <div className='slide-task sm'>
-                    <p>1 Task</p>
+                    <p>Won 20 SOL</p>
                 </div>
-                <div className='slide-task sm'>
-                <p>500 SOL </p>
+                <div className='s skm'>
+                <p>20/3/24</p>
                 </div>
-                <div className='slide-task'>
-                <p>10/20 Slots</p>
-                </div>
+               
             </div>
         </div>
 
@@ -53,14 +53,14 @@ const Slider_one = (props) => {
             </div>
             <div className='slide-btn'>
                 <div className='slide-task sm'>
-                    <p>1 Task</p>
+                    <p>Won 20 SOL</p>
                 </div>
-                <div className='slide-task sm'>
-                <p>500 SOL</p>
+                <div className='s skm'>
+                <p>20/3/24</p>
                 </div>
-                <div className='slide-task md'>
+                {/* <div className='slide-task md'>
                 <p>10/20 Slots</p>
-                </div>
+                </div> */}
             </div>
         </div>
 
@@ -78,15 +78,15 @@ const Slider_one = (props) => {
             </div>
             <div className='slide-btn'>
                 <div className='slide-task sm'>
-                    <p>1 Task</p>
+                    <p>Won 20 SOL</p>
                 </div>
-                <div className='slide-task sm'>
-                <p>500 SOL</p>
+                <div className='s skm'>
+                <p>20/3/24</p>
                 </div>
-                <div className='slide-task'>
-                <p>10/20 Slots</p>
-                </div>
-            </div>
+                {/* <div className='slide-task'>
+                {/* <p>10/20 Slots</p>
+                </div> */}
+            </div> 
         </div>
 
         <div className='card_one c4'>
@@ -102,15 +102,15 @@ const Slider_one = (props) => {
                 </p>
             </div>
             <div className='slide-btn'>
-                <div className='slide-task sm'>
-                    <p>1 Task</p>
+            <div className='slide-task sm'>
+                    <p>Won 20 SOL</p>
                 </div>
-                <div className='slide-task sm'>
-                <p>500 SOL</p>
+                <div className='s skm'>
+                <p>20/3/24</p>
                 </div>
-                <div className='slide-task md'>
+                {/* <div className='slide-task md'>
                 <p>10/20 Slots</p>
-                </div>
+                </div> */}
             </div>
         </div>
 
@@ -124,7 +124,11 @@ const Slider_one = (props) => {
 
 
     </div>
+
+
+
+    </div>
   )
 }
 
-export default Slider_one;
+export default Slider_one_three
