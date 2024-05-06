@@ -57,6 +57,7 @@ a:after {
     opacity: 0px;
     align-items: center;
     justify-content: space-between;
+    /* padding: 0 auto; */
 }
 .logo-div{
     width: 15.06rem;

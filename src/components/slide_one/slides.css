@@ -69,6 +69,10 @@ text-align: left;
     transition: all linear 400ms;
     background: linear-gradient(94.88deg, #AE47FF 10.93%, #5500C1 83.21%);
 }
+.card_one:hover .smd{
+    transition: all linear 400ms;
+    background: linear-gradient(90deg, #2C4EC9 4.74%, #007089 93.1%);    
+}
 .card_one:hover .md{
     transition: all linear 200ms;
     color: white;

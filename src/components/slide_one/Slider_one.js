@@ -30,7 +30,7 @@ const Slider_one = (props) => {
                 <div className='slide-task sm'>
                     <p>1 Task</p>
                 </div>
-                <div className='slide-task sm'>
+                <div className='slide-task smd'>
                 <p>500 SOL </p>
                 </div>
                 <div className='slide-task'>
@@ -55,7 +55,7 @@ const Slider_one = (props) => {
                 <div className='slide-task sm'>
                     <p>1 Task</p>
                 </div>
-                <div className='slide-task sm'>
+                <div className='slide-task smd'>
                 <p>500 SOL</p>
                 </div>
                 <div className='slide-task md'>
@@ -80,7 +80,7 @@ const Slider_one = (props) => {
                 <div className='slide-task sm'>
                     <p>1 Task</p>
                 </div>
-                <div className='slide-task sm'>
+                <div className='slide-task smd'>
                 <p>500 SOL</p>
                 </div>
                 <div className='slide-task'>
@@ -105,7 +105,7 @@ const Slider_one = (props) => {
                 <div className='slide-task sm'>
                     <p>1 Task</p>
                 </div>
-                <div className='slide-task sm'>
+                <div className='slide-task smd'>
                 <p>500 SOL</p>
                 </div>
                 <div className='slide-task md'>
