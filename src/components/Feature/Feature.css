@@ -37,16 +37,24 @@
     width: 105px;
     height: 34px;
     padding: 8px 12px 8px 12px;
-    gap: 10px;
     border-radius: 100px;
-    border: 1px ;
-    opacity: 0px;
-    background-color: #fff;
+    position: relative;
+    background: -webkit-linear-gradient();
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-border-image: -webkit-linear-gradient(94.88deg, #827CE0 10.93%, #647DAA 83.21%);;
     border: 1px solid;
-    background: -webkit-linear-gradient(94.88deg, #827CE0 10.93%, #647DAA 83.21%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-    /* border-image-source: linear-gradient(94.88deg, #827CE0 10.93%, #647DAA 83.21%); */
+    /* border: linear-gradient(to right, #827CE0 10.93%, #647DAA 83.21%);
+    border-image: linear-gradient(94.88deg, #827CE0 10.93%, #647DAA 83.21%); */
+    border-image-slice: 1;
+    border-radius: 100px;
+}
+.head--box-text{
+    background: linear-gradient(to right, #827CE0 10.93%, #647DAA 83.21%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
 }
 .heading-box{
     font-family: Outfit;

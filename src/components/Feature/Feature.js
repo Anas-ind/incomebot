@@ -6,7 +6,7 @@ const Feature = () => {
     <div className='feature-section'>
         <div className='leftbox'>
             <div className='head-box'>
-                <p>New Feature</p>
+                <p className='head--box-text'>New Feature</p>
             </div>
             <div className='heading-box'>
             <p>Exclusive Airdrop Opportunities</p>
@@ -18,7 +18,7 @@ const Feature = () => {
             </div>
         </div>
         <div className='rightbox'>
-        <img src={rightImage}  />
+        <img src={rightImage} alt=''  />
         </div>
     </div>
   )
